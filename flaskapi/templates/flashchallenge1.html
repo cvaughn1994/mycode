@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+   <body>
+       {% for item in groups %}
+       <div>{{item['ip']}}{{item['fqdn']}}#{{item['hostname']}}</div>
+       {% endfor %}
+   </body>
+</html>
+
